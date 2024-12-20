@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import Job from './Job.jsx';
 import Navbar from './shared/Navbar';
 import { useDispatch, useSelector } from 'react-redux';
-import { setSearchedQuery } from '@/redux/jobSlice';
-import useGetAllJobs from '@/hooks/useGetAllJobs';
+import { setSearchedQuery } from '../redux/jobSlice.js';
+import useGetAllJobs from '../hooks/useGetAllJobs.jsx';
 import { motion } from 'framer-motion'; // Importing Framer Motion
 
 const Browse = () => {

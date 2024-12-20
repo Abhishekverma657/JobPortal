@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../shared/Navbar'
 import ComapaniesTable from './ComapaniesTable'
 import { useNavigate } from 'react-router-dom'
-import useGetAllCompanies from '@/hooks/usegetAllCompanies'
+import useGetAllCompanies from '../../hooks/useGetAllCompanies'
 import { useDispatch } from 'react-redux'
-import { setSearchCompanyByText } from '@/redux/companySlice'
+import { setSearchCompanyByText } from '../../redux/companySlice'
 
 const Companies = () => {
      const navigate=useNavigate()
