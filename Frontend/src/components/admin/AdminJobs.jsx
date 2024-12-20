@@ -1,4 +1,4 @@
- import useGetAllCompanies from '@/hooks/usegetAllCompanies'
+ import useGetAllCompanies from '../../hooks/useGetAllCompanies'
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
@@ -6,7 +6,7 @@ import Navbar from '../shared/Navbar'
 import { setSearchCompanyByText } from '@/redux/companySlice'
 import AdminJobsTable from './AdminJobsTable'
 import useGetAllAdminJobs from '../../hooks/useGetAllAdmin'
-import { setSearchJobByText } from '@/redux/jobSlice'
+import { setSearchJobByText } from '../../redux/jobSlice'
  
  const AdminJobs = () => {
   useGetAllAdminJobs()
