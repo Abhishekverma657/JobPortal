@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './shared/Navbar'
 import FilterCard from './FilterCard'
- import Job from './job'
+ 
 import { useSelector } from 'react-redux'
 import store from '@/redux/store'
 import { motion } from 'framer-motion'
+import Job from './Job.jsx'
 //  const jobArray=[1,2,3,4,5,6,7,8]
 
 const Jobs = () => {
