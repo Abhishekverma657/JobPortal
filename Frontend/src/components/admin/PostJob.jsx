@@ -48,7 +48,7 @@ const PostJob = () => {
          try{
           
             setLoading(true)
-            const res=await axios.post(`http://localhost:8000/api/v1/job/post`,input,{
+            const res=await axios.post(`https://jobportal-98ze.onrender.com/api/v1/job/post`,input,{
                 headers: {
                     'Content-Type': 'application/json',
                 },

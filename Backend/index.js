@@ -24,7 +24,7 @@ dotenv.config({})
  app.use(express.urlencoded({extended:true}))
  app.use(cookieParser())
  const corsOption={
-origin:'http://localhost:5173',
+origin:'https://jobportal-98ze.onrender.com',
 methods: ['GET', 'POST', 'PUT', 'DELETE'],
 credentials:true
  }
