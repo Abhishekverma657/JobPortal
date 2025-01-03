@@ -28,6 +28,7 @@ const Navbar = () => {
       }
     } catch (e) {
       console.log(e);
+      console.log("error in logout")
       toast.error(e.response.data.message||"Somthing went wrong")
     }
   };
